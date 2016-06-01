@@ -1,0 +1,58 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/home/huser1/Spark/Streaming/IPA/src/main/scala/IPA.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/huser1/Spark/Streaming/IPA/src/main/scala/IPA.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/huser1/Spark/Streaming/IPA/src/main/scala/IPA.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /home/huser1/Spark/Streaming/IPA/src/main/scala/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.4[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.4[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 736e5e3f, interfacing (CompilerInterface) with Scala compiler version 2.10.4[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.75.x86_64/jre/lib/resources.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.75.x86_64/jre/lib/rt.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.75.x86_64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.75.x86_64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.75.x86_64/jre/lib/jce.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.75.x86_64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.75.x86_64/jre/lib/rhino.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.75.x86_64/jre/lib/jfr.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.75.x86_64/jre/classes:/home/huser1/.sbt/boot/scala-2.10.4/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/huser1/Spark/Streaming/IPA/src/main/scala/target/scala-2.10/classes[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/Streaming/IPA/src/main/scala/IPA.scala:1: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.optimization._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/Streaming/IPA/src/main/scala/IPA.scala:2: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.linalg.Vectorsi[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/Streaming/IPA/src/main/scala/IPA.scala:15: loss is already defined as value loss[0m
+[0m[[31merror[0m] [0m		val (new_weights,loss) = updater.compute(weights, grad, 1.0, 1, 0.01)[0m
+[0m[[31merror[0m] [0m		                 ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/Streaming/IPA/src/main/scala/IPA.scala:7: not found: value sc[0m
+[0m[[31merror[0m] [0m		val data = sc.textFile("hdfs://wolf.iems.northwestern.edu/user/huser1/Spark/IPAdata")[0m
+[0m[[31merror[0m] [0m		           ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/Streaming/IPA/src/main/scala/IPA.scala:9: not found: value sc[0m
+[0m[[31merror[0m] [0m		val bc = sc.broadcast(DenseVector(1.0,1.0,1.0,1.0,1.0))[0m
+[0m[[31merror[0m] [0m		         ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/Streaming/IPA/src/main/scala/IPA.scala:11: not found: type LogisticGradient[0m
+[0m[[31merror[0m] [0m		val logit = new LogisticGradient()[0m
+[0m[[31merror[0m] [0m		                ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/Streaming/IPA/src/main/scala/IPA.scala:14: not found: type SquaredL2Updater[0m
+[0m[[31merror[0m] [0m		val updater = new SquaredL2Updater()[0m
+[0m[[31merror[0m] [0m		                  ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/Streaming/IPA/src/main/scala/IPA.scala:17: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0m	def myfunc(iter: Iterator[org.apache.spark.mllib.linalg.Vector]): Iterator[Any] = {[0m
+[0m[[31merror[0m] [0m	                              ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/Streaming/IPA/src/main/scala/IPA.scala:18: not found: value bc[0m
+[0m[[31merror[0m] [0m      		var weights = bc.value[0m
+[0m[[31merror[0m] [0m      		              ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/Streaming/IPA/src/main/scala/IPA.scala:22: not found: value res[0m
+[0m[[31merror[0m] [0m      		List(res).iterator[0m
+[0m[[31merror[0m] [0m      		     ^[0m
+[0m[[31merror[0m] [0m10 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompile[0m) Compilation failed[0m

@@ -1,0 +1,330 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/home/huser1/Spark/radisa/src/main/scala/oRADiSA.scala, /home/huser1/Spark/radisa/src/main/scala/D2CA.scala, /home/huser1/Spark/radisa/src/main/scala/fRADiSA.scala, /home/huser1/Spark/radisa/src/main/scala/OptClasses.scala, /home/huser1/Spark/radisa/src/main/scala/OptUtils.scala, /home/huser1/Spark/radisa/src/main/scala/ofRADiSA.scala, /home/huser1/Spark/radisa/src/main/scala/driver.scala, /home/huser1/Spark/radisa/src/main/scala/mbRAPSA.scala, /home/huser1/Spark/radisa/src/main/scala/GradientDescent.scala, /home/huser1/Spark/radisa/src/main/scala/primalDualUtils.scala, /home/huser1/Spark/radisa/src/main/scala/experimentDriver.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mInvalidated products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/huser1/Spark/radisa/src/main/scala/oRADiSA.scala, /home/huser1/Spark/radisa/src/main/scala/D2CA.scala, /home/huser1/Spark/radisa/src/main/scala/fRADiSA.scala, /home/huser1/Spark/radisa/src/main/scala/OptClasses.scala, /home/huser1/Spark/radisa/src/main/scala/OptUtils.scala, /home/huser1/Spark/radisa/src/main/scala/ofRADiSA.scala, /home/huser1/Spark/radisa/src/main/scala/driver.scala, /home/huser1/Spark/radisa/src/main/scala/mbRAPSA.scala, /home/huser1/Spark/radisa/src/main/scala/GradientDescent.scala, /home/huser1/Spark/radisa/src/main/scala/primalDualUtils.scala, /home/huser1/Spark/radisa/src/main/scala/experimentDriver.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/huser1/Spark/radisa/src/main/scala/oRADiSA.scala, /home/huser1/Spark/radisa/src/main/scala/D2CA.scala, /home/huser1/Spark/radisa/src/main/scala/fRADiSA.scala, /home/huser1/Spark/radisa/src/main/scala/OptClasses.scala, /home/huser1/Spark/radisa/src/main/scala/OptUtils.scala, /home/huser1/Spark/radisa/src/main/scala/ofRADiSA.scala, /home/huser1/Spark/radisa/src/main/scala/driver.scala, /home/huser1/Spark/radisa/src/main/scala/mbRAPSA.scala, /home/huser1/Spark/radisa/src/main/scala/GradientDescent.scala, /home/huser1/Spark/radisa/src/main/scala/primalDualUtils.scala, /home/huser1/Spark/radisa/src/main/scala/experimentDriver.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 11 sources: invalidated sources (11) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 11 Scala sources to /home/huser1/Spark/radisa/src/main/scala/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.5[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.5[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 369efcbe, interfacing (CompilerInterface) with Scala compiler version 2.10.5[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.91-0.b14.el6_7.x86_64/jre/lib/resources.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.91-0.b14.el6_7.x86_64/jre/lib/rt.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.91-0.b14.el6_7.x86_64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.91-0.b14.el6_7.x86_64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.91-0.b14.el6_7.x86_64/jre/lib/jce.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.91-0.b14.el6_7.x86_64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.91-0.b14.el6_7.x86_64/jre/lib/jfr.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.91-0.b14.el6_7.x86_64/jre/classes:/home/huser1/.sbt/boot/scala-2.10.5/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/huser1/Spark/radisa/src/main/scala/target/scala-2.10/classes[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/D2CA.scala:3: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.SparkContext[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/D2CA.scala:4: not found: object breeze[0m
+[0m[[31merror[0m] [0mimport breeze.linalg._[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/D2CA.scala:5: not found: object breeze[0m
+[0m[[31merror[0m] [0mimport breeze.linalg.{DenseVector,Vector,SparseVector}[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/D2CA.scala:6: object github is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.github.fommil.netlib.BLAS[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/D2CA.scala:9: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.rdd.RDD[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/D2CA.scala:10: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.SparkContext[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/D2CA.scala:11: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.broadcast.Broadcast[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/D2CA.scala:30: not found: type RDD[0m
+[0m[[31merror[0m] [0m		data: RDD[Array[LabeledPoint]],[0m
+[0m[[31merror[0m] [0m		      ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/D2CA.scala:45: value zeros is not a member of object scala.collection.immutable.Vector[0m
+[0m[[31merror[0m] [0m		var w = Vector.zeros[Double](numFeatures)[0m
+[0m[[31merror[0m] [0m		               ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/D2CA.scala:46: value zeros is not a member of object scala.collection.immutable.Vector[0m
+[0m[[31merror[0m] [0m		var alpha = Vector.zeros[Double](numObs)			[0m
+[0m[[31merror[0m] [0m		                   ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/primalDualUtils.scala:4: not found: object breeze[0m
+[0m[[31merror[0m] [0mimport breeze.linalg._[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/primalDualUtils.scala:7: not found: object breeze[0m
+[0m[[31merror[0m] [0mimport breeze.numerics._[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/primalDualUtils.scala:8: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.rdd.RDD[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/primalDualUtils.scala:54: not found: type RDD[0m
+[0m[[31merror[0m] [0m	def dualObjective(data: RDD[Array[LabeledPoint]],[0m
+[0m[[31merror[0m] [0m	                        ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/primalDualUtils.scala:5: not found: object breeze[0m
+[0m[[31merror[0m] [0mimport breeze.linalg.{DenseVector,Vector,SparseVector}[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/OptUtils.scala:4: not found: object breeze[0m
+[0m[[31merror[0m] [0mimport breeze.linalg._[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/OptUtils.scala:7: not found: object breeze[0m
+[0m[[31merror[0m] [0mimport breeze.numerics._[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/OptUtils.scala:8: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.rdd.RDD[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/OptUtils.scala:223: not found: type RDD[0m
+[0m[[31merror[0m] [0m	def computeHingeLossDF(data: RDD[Array[LabeledPoint]],[0m
+[0m[[31merror[0m] [0m	                             ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/OptUtils.scala:5: not found: object breeze[0m
+[0m[[31merror[0m] [0mimport breeze.linalg.{DenseVector,Vector,SparseVector}[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/primalDualUtils.scala:15: not found: type RDD[0m
+[0m[[31merror[0m] [0m		data: RDD[Array[LabeledPoint]],[0m
+[0m[[31merror[0m] [0m		      ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/D2CA.scala:102: not found: value min[0m
+[0m[[31merror[0m] [0m			val first = min(firstRow.features).toInt[0m
+[0m[[31merror[0m] [0m			            ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/D2CA.scala:103: not found: value max[0m
+[0m[[31merror[0m] [0m			val last = max(firstRow.features).toInt[0m
+[0m[[31merror[0m] [0m			           ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/D2CA.scala:109: value zeros is not a member of object scala.collection.immutable.Vector[0m
+[0m[[31merror[0m] [0m			var DA = Vector.zeros[Double](dataArr.size - 1)[0m
+[0m[[31merror[0m] [0m			                ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/OptClasses.scala:3: not found: object breeze[0m
+[0m[[31merror[0m] [0mimport breeze.linalg.{SparseVector, Vector, DenseVector}[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/OptClasses.scala:5: not found: type SparseVector[0m
+[0m[[31merror[0m] [0mcase class LabeledPoint(val label: Double, val features: SparseVector[Double])[0m
+[0m[[31merror[0m] [0m                                                         ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/D2CA.scala:137: value zeros is not a member of object scala.collection.immutable.Vector[0m
+[0m[[31merror[0m] [0m			val finalAlpha = Vector.zeros[Double](numObs)[0m
+[0m[[31merror[0m] [0m			                        ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/GradientDescent.scala:3: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.SparkContext[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/GradientDescent.scala:4: not found: object breeze[0m
+[0m[[31merror[0m] [0mimport breeze.linalg._[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/GradientDescent.scala:5: not found: object breeze[0m
+[0m[[31merror[0m] [0mimport breeze.linalg.{DenseVector,Vector,SparseVector}[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/GradientDescent.scala:6: object github is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.github.fommil.netlib.BLAS[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/GradientDescent.scala:9: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.rdd.RDD[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/GradientDescent.scala:10: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.SparkContext[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/GradientDescent.scala:11: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.broadcast.Broadcast[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/GradientDescent.scala:30: not found: type RDD[0m
+[0m[[31merror[0m] [0m		data: RDD[Array[LabeledPoint]],[0m
+[0m[[31merror[0m] [0m		      ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/GradientDescent.scala:46: value zeros is not a member of object scala.collection.immutable.Vector[0m
+[0m[[31merror[0m] [0m		var w = Vector.zeros[Double](numFeatures)[0m
+[0m[[31merror[0m] [0m		               ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/OptUtils.scala:177: not found: type RDD[0m
+[0m[[31merror[0m] [0m	def computeHingeLoss(data: RDD[Array[LabeledPoint]],[0m
+[0m[[31merror[0m] [0m	                           ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/OptUtils.scala:198: not found: type RDD[0m
+[0m[[31merror[0m] [0m	def computeHingeGradient(data: RDD[Array[LabeledPoint]],[0m
+[0m[[31merror[0m] [0m	                               ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/OptUtils.scala:3: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.SparkContext[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/OptUtils.scala:6: object github is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.github.fommil.netlib.BLAS[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/OptUtils.scala:9: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.broadcast.Broadcast[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/OptUtils.scala:15: not found: type RDD[0m
+[0m[[31merror[0m] [0m	def readLibsvmData(sc: SparkContext, path: String, numPartitions: Int, numFeatures: Int): RDD[LabeledPoint] = {[0m
+[0m[[31merror[0m] [0m	                                                                                          ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/OptUtils.scala:15: not found: type SparkContext[0m
+[0m[[31merror[0m] [0m	def readLibsvmData(sc: SparkContext, path: String, numPartitions: Int, numFeatures: Int): RDD[LabeledPoint] = {[0m
+[0m[[31merror[0m] [0m	                       ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/OptUtils.scala:48: not found: type RDD[0m
+[0m[[31merror[0m] [0m	def readFeaturePartitionData(sc: SparkContext, path: String, numFiles: Int, format: String): RDD[LabeledPoint] = {[0m
+[0m[[31merror[0m] [0m	                                                                                             ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/OptUtils.scala:48: not found: type SparkContext[0m
+[0m[[31merror[0m] [0m	def readFeaturePartitionData(sc: SparkContext, path: String, numFiles: Int, format: String): RDD[LabeledPoint] = {[0m
+[0m[[31merror[0m] [0m	                                 ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/OptUtils.scala:68: not found: type RDD[0m
+[0m[[31merror[0m] [0m	private def formatDataByPartition(data: RDD[String],format: String): RDD[LabeledPoint] = {[0m
+[0m[[31merror[0m] [0m	                                                                     ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/OptUtils.scala:68: not found: type RDD[0m
+[0m[[31merror[0m] [0m	private def formatDataByPartition(data: RDD[String],format: String): RDD[LabeledPoint] = {[0m
+[0m[[31merror[0m] [0m	                                        ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/OptUtils.scala:128: not found: type RDD[0m
+[0m[[31merror[0m] [0m	def getNumObsPerPartition(data: RDD[Array[LabeledPoint]]): Map[Int,(Int,Int)] = {[0m
+[0m[[31merror[0m] [0m	                                ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/OptUtils.scala:155: not found: type RDD[0m
+[0m[[31merror[0m] [0m	def getFeatureMap(data: RDD[Array[LabeledPoint]]): Map[Int,Int] = {[0m
+[0m[[31merror[0m] [0m	                        ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/OptUtils.scala:260: value norm is not a member of Vector[Double][0m
+[0m[[31merror[0m] [0m		(1/numObs.toDouble) * preLoss + 0.5 * regularizationVal  * Math.pow(bcPrimal.norm(2),2)[0m
+[0m[[31merror[0m] [0m		                                                                             ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/OptUtils.scala:264: not found: type RDD[0m
+[0m[[31merror[0m] [0m	def computeHingeGradientDFlocal(data: RDD[Array[LabeledPoint]],[0m
+[0m[[31merror[0m] [0m	                                      ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/OptUtils.scala:293: not found: type RDD[0m
+[0m[[31merror[0m] [0m	def computeHingeGradientDFglobal(data: RDD[Array[LabeledPoint]],[0m
+[0m[[31merror[0m] [0m	                                       ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/OptUtils.scala:335: not found: value min[0m
+[0m[[31merror[0m] [0m			val first = min(firstRow.features).toInt[0m
+[0m[[31merror[0m] [0m			            ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/OptUtils.scala:336: not found: value max[0m
+[0m[[31merror[0m] [0m			val last = max(firstRow.features).toInt[0m
+[0m[[31merror[0m] [0m			           ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/OptUtils.scala:339: value zeros is not a member of object scala.collection.immutable.Vector[0m
+[0m[[31merror[0m] [0m			var partialGrad = Vector.zeros[Double](wLocal.size)			[0m
+[0m[[31merror[0m] [0m			                         ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/OptUtils.scala:345: type mismatch;[0m
+[0m[[31merror[0m] [0m found   : scala.collection.immutable.Range.Inclusive[0m
+[0m[[31merror[0m] [0m required: Int[0m
+[0m[[31merror[0m] [0m			val partialDotProd = dotProd(firstObs to lastObs)[0m
+[0m[[31merror[0m] [0m			                                      ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/OptUtils.scala:355: value zeros is not a member of object scala.collection.immutable.Vector[0m
+[0m[[31merror[0m] [0m			var finalGrad = Vector.zeros[Double](bcPrimal.size)[0m
+[0m[[31merror[0m] [0m			                       ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/OptUtils.scala:360: not found: type RDD[0m
+[0m[[31merror[0m] [0m	def testAccuracy(testData: RDD[LabeledPoint],[0m
+[0m[[31merror[0m] [0m	                           ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/driver.scala:4: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.log4j.Logger[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/driver.scala:5: not found: object breeze[0m
+[0m[[31merror[0m] [0mimport breeze.linalg._[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/driver.scala:6: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.SparkConf[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/driver.scala:7: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.SparkContext[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/driver.scala:16: not found: type SparkConf[0m
+[0m[[31merror[0m] [0m		val conf = new SparkConf().setAppName("dfr")[0m
+[0m[[31merror[0m] [0m		               ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/driver.scala:29: not found: type SparkContext[0m
+[0m[[31merror[0m] [0m		val sc = new SparkContext(conf)	[0m
+[0m[[31merror[0m] [0m		             ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/mbRAPSA.scala:4: not found: object breeze[0m
+[0m[[31merror[0m] [0mimport breeze.linalg._[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/mbRAPSA.scala:5: not found: object breeze[0m
+[0m[[31merror[0m] [0mimport breeze.linalg.{DenseVector,Vector,SparseVector}[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/mbRAPSA.scala:9: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.rdd.RDD[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/mbRAPSA.scala:30: not found: type RDD[0m
+[0m[[31merror[0m] [0m		data: RDD[Array[LabeledPoint]],[0m
+[0m[[31merror[0m] [0m		      ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/oRADiSA.scala:4: not found: object breeze[0m
+[0m[[31merror[0m] [0mimport breeze.linalg._[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/oRADiSA.scala:5: not found: object breeze[0m
+[0m[[31merror[0m] [0mimport breeze.linalg.{DenseVector,Vector,SparseVector}[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/oRADiSA.scala:9: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.rdd.RDD[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/oRADiSA.scala:30: not found: type RDD[0m
+[0m[[31merror[0m] [0m		data: RDD[Array[LabeledPoint]],[0m
+[0m[[31merror[0m] [0m		      ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/oRADiSA.scala:31: not found: type RDD[0m
+[0m[[31merror[0m] [0m		testData: RDD[LabeledPoint],[0m
+[0m[[31merror[0m] [0m		          ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/fRADiSA.scala:4: not found: object breeze[0m
+[0m[[31merror[0m] [0mimport breeze.linalg._[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/fRADiSA.scala:5: not found: object breeze[0m
+[0m[[31merror[0m] [0mimport breeze.linalg.{DenseVector,Vector,SparseVector}[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/fRADiSA.scala:9: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.rdd.RDD[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/fRADiSA.scala:30: not found: type RDD[0m
+[0m[[31merror[0m] [0m		data: RDD[Array[LabeledPoint]],[0m
+[0m[[31merror[0m] [0m		      ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/ofRADiSA.scala:4: not found: object breeze[0m
+[0m[[31merror[0m] [0mimport breeze.linalg._[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/ofRADiSA.scala:5: not found: object breeze[0m
+[0m[[31merror[0m] [0mimport breeze.linalg.{DenseVector,Vector,SparseVector}[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/ofRADiSA.scala:9: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.rdd.RDD[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/ofRADiSA.scala:30: not found: type RDD[0m
+[0m[[31merror[0m] [0m		data: RDD[Array[LabeledPoint]],[0m
+[0m[[31merror[0m] [0m		      ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/experimentDriver.scala:4: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.log4j.Logger[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/experimentDriver.scala:5: not found: object breeze[0m
+[0m[[31merror[0m] [0mimport breeze.linalg._[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/experimentDriver.scala:6: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.SparkConf[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/experimentDriver.scala:7: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.SparkContext[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/experimentDriver.scala:16: not found: type SparkConf[0m
+[0m[[31merror[0m] [0m		val conf = new SparkConf().setAppName("dfr")[0m
+[0m[[31merror[0m] [0m		               ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/experimentDriver.scala:20: not found: type SparkContext[0m
+[0m[[31merror[0m] [0m		val sc = new SparkContext(conf)[0m
+[0m[[31merror[0m] [0m		             ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/fRADiSA.scala:3: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.SparkContext[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/fRADiSA.scala:6: object github is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.github.fommil.netlib.BLAS[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/fRADiSA.scala:10: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.SparkContext[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/fRADiSA.scala:11: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.broadcast.Broadcast[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/fRADiSA.scala:47: value zeros is not a member of object scala.collection.immutable.Vector[0m
+[0m[[31merror[0m] [0m		var w = Vector.zeros[Double](numFeatures)[0m
+[0m[[31merror[0m] [0m		               ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/fRADiSA.scala:57: value zeros is not a member of object scala.collection.immutable.Vector[0m
+[0m[[31merror[0m] [0m		var globalGrad = Vector.zeros[Double](1)	[0m
+[0m[[31merror[0m] [0m		                        ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/fRADiSA.scala:103: not found: value min[0m
+[0m[[31merror[0m] [0m			val first = min(firstRow.features).toInt[0m
+[0m[[31merror[0m] [0m			            ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/fRADiSA.scala:104: not found: value max[0m
+[0m[[31merror[0m] [0m			val last = max(firstRow.features).toInt			[0m
+[0m[[31merror[0m] [0m			           ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/fRADiSA.scala:109: value zeros is not a member of object scala.collection.immutable.Vector[0m
+[0m[[31merror[0m] [0m			var grad = Vector.zeros[Double](last-first+1)[0m
+[0m[[31merror[0m] [0m			                  ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/fRADiSA.scala:110: value zeros is not a member of object scala.collection.immutable.Vector[0m
+[0m[[31merror[0m] [0m			var gradRefMinusMu = Vector.zeros[Double](1)[0m
+[0m[[31merror[0m] [0m			                            ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/fRADiSA.scala:143: value zeros is not a member of object scala.collection.immutable.Vector[0m
+[0m[[31merror[0m] [0m			var wFinal = Vector.zeros[Double](numFeatures)[0m
+[0m[[31merror[0m] [0m			                    ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/mbRAPSA.scala:3: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.SparkContext[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/huser1/Spark/radisa/src/main/scala/mbRAPSA.scala:6: object github is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.github.fommil.netlib.BLAS[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m133 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompileIncremental[0m) Compilation failed[0m

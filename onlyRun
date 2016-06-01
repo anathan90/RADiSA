@@ -1,0 +1,20 @@
+/opt/cloudera/parcels/CDH/bin/spark-submit \
+--class "driver" \
+--master yarn-client \
+--driver-memory 4g \
+--executor-memory 10g \
+--executor-cores 3 \
+--num-executors 4 \
+target/scala-2.10/dfralgorithm_2.10-1.2.jar \
+--conf spark.yarn.executor.memoryOverhead 1500 \
+--inputDirectory="hdfs://wolf.iems.northwestern.edu/user/huser1/MLproject/libsvm_input_realsim" \
+--testDirectory="hdfs://wolf.iems.northwestern.edu/user/huser1/MLproject/libsvm_input_realsim_test" \
+--printIter=1 \
+--numIterations=20 \
+--numObservations=72309 \
+--numFeatures=20958 \
+--regularizationValue=0.001 \
+--stepsizeConstant=2.0 \
+--method="gradientDescent" \
+--numPartitions=10 \
+--miniBatchFraction=1.0
