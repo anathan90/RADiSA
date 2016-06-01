@@ -12,8 +12,13 @@ The present code trains hinge-loss SVM for binary classification.
 
 To compile the code:
 
+```
 sbt compile; sbt package
+```
 
 To run the code:
 
+```
 ./onlyRun
+```
+
