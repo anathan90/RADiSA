@@ -6,7 +6,7 @@ This code implements the following algorithms:
  -- RADiSA
  -- Gradient Descent (and mini-batch SGD)
 
-The present code trains hinge-loss SVM for binary classification. 
+The present code trains hinge-loss SVM for binary classification. It is fairly straightfoward to extend it in order to solve other objectives (e.g. linear or logistic regression).
 
 # Getting Started
 
