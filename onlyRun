@@ -6,15 +6,14 @@
 --executor-cores 3 \
 --num-executors 4 \
 target/scala-2.10/dfralgorithm_2.10-1.2.jar \
---conf spark.yarn.executor.memoryOverhead 1500 \
---inputDirectory="hdfs://wolf.iems.northwestern.edu/user/huser1/MLproject/libsvm_input_realsim" \
---testDirectory="hdfs://wolf.iems.northwestern.edu/user/huser1/MLproject/libsvm_input_realsim_test" \
+--inputDirectory="your_hdfs_path_for_training_set" \
+--testDirectory="your_hdfs_path_for_test_set" \
 --printIter=1 \
 --numIterations=20 \
 --numObservations=72309 \
 --numFeatures=20958 \
 --regularizationValue=0.001 \
---stepsizeConstant=2.0 \
---method="gradientDescent" \
+--stepsizeConstant=4.5 \
+--method="oRADiSA" \
 --numPartitions=10 \
---miniBatchFraction=1.0
+--miniBatchFraction=0.005
