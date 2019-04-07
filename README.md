@@ -1,6 +1,6 @@
 # RADiSA
 
-RADiSA is an optimization method for large scale machine learning. The current implementation assumes that the observations are distributed, but not the features. However, each partition only operates on a subset of features in each iteration. 
+RADiSA is an optimization method for large scale machine learning. The current implementation assumes that the observations are distributed, but not the features. However, each partition only operates on a subset of features in each iteration. To understand how the algorithm can be extended to distributed features, see the following publication: https://arxiv.org/pdf/1610.10060.pdf
 
 This code implements the following algorithms:
 * RADiSA
